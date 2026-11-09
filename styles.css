@@ -1058,8 +1058,8 @@ input:focus-visible {
 
 .hero-logo {
   display: block;
-  width: min(88%, 780px);
-  max-height: 42svh;
+  width: min(100%, 1000px);
+  max-height: 55svh;
   height: auto;
   object-fit: contain;
   margin: 0 auto;
@@ -1367,9 +1367,10 @@ input:focus-visible {
   }
 
   .hero-logo {
-    width: 100%;
-    max-height: 32svh;
-  }
+  width: 115%;
+  max-height: 43svh;
+  max-width: none;
+}
 
   .hero-count h1 {
     font-size: 32px;
