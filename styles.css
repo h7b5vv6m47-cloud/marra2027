@@ -1045,8 +1045,10 @@ input:focus-visible {
 /* ABERTURA */
 .hero {
   min-height: 100svh;
-  padding: 100px 6% 75px;
+  padding: 100px 0 75px;
   justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .hero-content {
