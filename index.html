@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#050505">
+  <meta name="theme-color" content="#000000">
   <meta name="description" content="MARRA 2ª EDIÇÃO — 15 de janeiro de 2027, no Hytti Pub, Fortaleza. Garanta seu ingresso.">
   <title>MARRA — 2ª EDIÇÃO | 15.01.2027</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,50 +14,45 @@
 <body>
   <div class="noise" aria-hidden="true"></div>
   <header class="topbar">
-
-  <a class="brand-mini" href="#inicio" aria-label="MARRA">
-
-    <img src="assets/marra-logo.png" alt="MARRA">
-
-  </a>
-
-  <a class="top-link" href="#ingressos">
-
-    GARANTA SEU INGRESSO <span>↗</span>
-
-  </a>
-
-</header>
-   
-
-  
-    
+    <a class="brand-mini" href="#inicio" aria-label="MARRA início">M<span>.</span></a>
+    <a class="top-link" href="#ingressos">GARANTA SEU INGRESSO <span>↗</span></a>
+  </header>
 
   <main>
     <section class="hero" id="inicio" aria-label="MARRA 2ª edição">
-      <img class="hero-background" src="assets/marra-logo.png" alt="MARRA — logo vermelha metálica" fetchpriority="high">
-      <div class="hero-shade" aria-hidden="true"></div>
       <div class="hero-content">
-        <p class="edition">2ª EDIÇÃO</p>
+        <img
+          class="hero-logo"
+          src="assets/marra-logo.png"
+          alt="MARRA — logo vermelha metálica"
+          fetchpriority="high"
+        >
+
+        <div class="hero-count">
+          <div class="section-kicker">A CONTAGEM COMEÇOU</div>
+          <h1>O TEMPO ESTÁ <span>PASSANDO.</span></h1>
+          <div class="countdown" aria-label="Contagem regressiva para o evento">
+            <div class="count-cell"><strong id="days">000</strong><span>DIAS</span></div>
+            <div class="count-cell"><strong id="hours">00</strong><span>HORAS</span></div>
+            <div class="count-cell"><strong id="minutes">00</strong><span>MIN</span></div>
+            <div class="count-cell"><strong id="seconds">00</strong><span>SEG</span></div>
+          </div>
+          <p class="count-note" id="count-note">15 DE JANEIRO DE 2027 · ÀS 22H</p>
+        </div>
+
+        <div class="hero-event-info">
+          <span>2ª EDIÇÃO</span>
+          <span>15 JAN 2027</span>
+          <span>22H ÀS 04H</span>
+          <span>HYTTI PUB · FORTALEZA — CE</span>
+        </div>
+
         <a class="primary-btn hero-cta" href="#ingressos">QUERO MEU INGRESSO <span>↗</span></a>
       </div>
-      <div class="hero-bottom"><span>FORTALEZA — CE</span><span>15 JAN 2027</span></div>
       <a class="scroll-cue" href="#sobre">DESLIZE PARA DESCOBRIR <span>↓</span></a>
     </section>
 
-    <section class="count-section section-wrap" id="sobre">
-      <div class="section-kicker">A CONTAGEM COMEÇOU</div>
-      <h2>O TEMPO ESTÁ <span>PASSANDO.</span></h2>
-      <div class="countdown" aria-label="Contagem regressiva para o evento">
-        <div class="count-cell"><strong id="days">000</strong><span>DIAS</span></div>
-        <div class="count-cell"><strong id="hours">00</strong><span>HORAS</span></div>
-        <div class="count-cell"><strong id="minutes">00</strong><span>MIN</span></div>
-        <div class="count-cell"><strong id="seconds">00</strong><span>SEG</span></div>
-      </div>
-      <p class="count-note" id="count-note">15 DE JANEIRO DE 2027 · ÀS 22H</p>
-    </section>
-
-    <section class="event-section section-wrap">
+    <section class="event-section section-wrap" id="sobre">
       <div class="section-kicker">MARQUE NA AGENDA</div>
       <h2>UMA EXPERIÊNCIA <span>INESQUECÍVEL.</span></h2>
       <div class="event-grid">
