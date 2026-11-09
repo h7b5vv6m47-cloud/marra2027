@@ -862,11 +862,14 @@ input:focus-visible {
   }
 
    .hero-logo {
-  width: 115%;
-  max-width: none;
+  display: block;
+  width: min(92vw, 1000px);
+  max-width: 100%;
   height: auto;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  object-fit: contain;
+  object-position: center;
+  margin: 0 auto;
+  flex-shrink: 0;
 }
 
   .brand-mini img {
@@ -1381,11 +1384,11 @@ input:focus-visible {
   }
    
 .hero-logo {
-  width: 100%;
+  width: 94vw;
   max-width: 700px;
   height: auto;
-  max-height: none;
-  object-fit: contain;
+  margin: 0 auto;
+  transform: none;
 }
    
   .hero-content {
