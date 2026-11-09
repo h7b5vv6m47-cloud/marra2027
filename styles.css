@@ -1065,13 +1065,12 @@ input:focus-visible {
 
 .hero-logo {
   display: block;
-  width: 120vw;
-  max-width: 1600px;
-  max-height: 75svh;
+  width: min(88vw, 900px);
+  max-width: 100%;
   height: auto;
+  max-height: none;
   object-fit: contain;
   object-position: center;
-  align-self: center;
   margin: 0 auto;
   flex-shrink: 0;
 }
@@ -1381,18 +1380,7 @@ input:focus-visible {
   align-items: center;
 }
 
-.hero-logo {
-  display: block;
-  width: 120vw;
-  max-width: none;
-  max-height: 70svh;
-  height: auto;
-  object-fit: contain;
-  object-position: center;
-  align-self: center;
-  margin: 0 auto;
-  flex-shrink: 0;
-}
+
 
   .hero-count h1 {
     font-size: 32px;
