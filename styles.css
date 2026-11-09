@@ -133,3 +133,76 @@ img {
     text-align: center;
   }
 }
+/* VISUAL PRINCIPAL MARRA */
+
+html, body, main, section, footer {
+    background: #000 !important;
+}
+
+.hero {
+    min-height: 100svh;
+    height: auto;
+    padding: 90px 0 70px;
+    background: #000;
+}
+
+.hero-content {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    padding: 30px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.hero-logo {
+    display: block;
+    width: min(100%, 430px);
+    height: auto;
+    object-fit: contain;
+}
+
+.hero-count {
+    width: 100%;
+    text-align: center;
+}
+
+.hero-count h1 {
+    font: 900 clamp(28px, 6vw, 48px) 'Barlow Condensed', sans-serif;
+}
+
+.hero-count h1 span {
+    color: #ed3934;
+}
+
+.hero-event-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    color: #ddd;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.scroll-cue {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    margin-top: 15px;
+}
+
+.rules-band,
+.event-card,
+.ticket-options,
+.order-card,
+.pix-panel,
+.group-card,
+.contact-card,
+.refund-section {
+    background: #000;
+}
