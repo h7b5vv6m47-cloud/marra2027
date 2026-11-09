@@ -1038,3 +1038,379 @@ input:focus-visible {
     width: min(1150px, 85%);
   }
 }
+/* =========================================
+   AJUSTES PARA O HTML ATUAL DA MARRA
+========================================= */
+
+/* ABERTURA */
+.hero {
+  min-height: 100svh;
+  padding: 100px 6% 75px;
+  justify-content: center;
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 1050px;
+  margin: auto;
+  gap: 28px;
+}
+
+.hero-logo {
+  display: block;
+  width: min(88%, 780px);
+  max-height: 42svh;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.hero-count {
+  width: 100%;
+  text-align: center;
+}
+
+.hero-count h1,
+.event-section h2,
+.rules-band h2,
+.tickets-section h2,
+.community-section h2,
+.refund-inner h2 {
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: clamp(30px, 5vw, 54px);
+  font-weight: 900;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.hero-count h1 span,
+.event-section h2 span,
+.rules-band h2 span,
+.tickets-section h2 span,
+.community-section h2 span,
+.contact-card h3 span,
+.pix-heading h3 span,
+.refund-inner h2 span {
+  color: #ed172e;
+}
+
+.hero-count .section-kicker {
+  margin-bottom: 12px;
+}
+
+.hero-count .countdown {
+  margin-top: 22px;
+}
+
+.hero-event-info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 25px;
+  padding: 20px 0;
+  border-top: 1px solid rgba(255,255,255,.15);
+  border-bottom: 1px solid rgba(255,255,255,.15);
+}
+
+.hero-event-info span {
+  color: #ddd;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.hero-cta {
+  margin-top: 0;
+}
+
+/* INFORMAÇÕES DO EVENTO */
+.event-section {
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.event-section h2 {
+  margin-bottom: 30px;
+}
+
+.event-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.event-card small {
+  color: #ed172e;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.event-card strong {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.event-card p {
+  color: #aaa;
+  font-size: 11px;
+}
+
+.outline-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  min-height: 45px;
+  margin-top: 28px;
+  padding: 0 22px;
+  border: 1px solid #ed172e;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  transition: .2s ease;
+}
+
+.outline-btn:hover {
+  background: #ed172e;
+}
+
+/* REGRAS */
+.rules-inner {
+  align-items: center;
+}
+
+.rules-inner h2 {
+  font-size: clamp(25px, 4vw, 38px);
+}
+
+/* INGRESSOS */
+.tickets-section h2 {
+  margin-bottom: 15px;
+}
+
+.tickets-section .section-intro {
+  color: #aaa;
+  font-size: 13px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+.ticket-options {
+  border: 1px solid rgba(255,255,255,.13);
+  padding: 10px 22px 22px;
+}
+
+.ticket-row > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.ticket-type {
+  color: #ed172e;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.ticket-row small {
+  color: #888;
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+
+.quantity output {
+  min-width: 20px;
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+}
+
+.buyer-fields label {
+  color: #ddd;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+/* RESUMO E PIX */
+.order-card {
+  height: fit-content;
+}
+
+.pix-panel {
+  margin-top: 25px;
+  max-width: 100%;
+}
+
+.pix-heading {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.pix-heading h3 {
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 27px;
+  font-weight: 900;
+}
+
+.pix-heading .section-kicker {
+  margin-bottom: 5px;
+}
+
+.pix-panel > p {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.pix-key {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pix-key span {
+  color: #fff;
+  overflow-wrap: anywhere;
+}
+
+.pix-key .copy-btn {
+  width: auto;
+  flex-shrink: 0;
+  padding: 0 15px;
+}
+
+.confirm-btn {
+  margin-top: 18px;
+}
+
+/* COMUNIDADE */
+.community-section h2 {
+  margin-bottom: 15px;
+}
+
+.community-section .section-intro {
+  color: #aaa;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.group-card strong {
+  color: #fff;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+/* CONTATO */
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-card h3 {
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 27px;
+  font-weight: 900;
+}
+
+.contact-card .section-kicker {
+  margin-bottom: 10px;
+}
+
+.contact-number {
+  color: #aaa;
+}
+
+/* REEMBOLSO */
+.refund-inner {
+  width: min(1120px, 88%);
+  margin: auto;
+}
+
+.refund-inner h2 {
+  margin-bottom: 12px;
+  font-size: clamp(25px, 4vw, 38px);
+}
+
+/* RODAPÉ */
+.footer span,
+.footer small {
+  display: block;
+  margin-top: 10px;
+  color: #777;
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+
+/* CELULAR */
+@media (max-width: 600px) {
+  .hero {
+    min-height: 100svh;
+    padding: 90px 5% 85px;
+  }
+
+  .hero-content {
+    gap: 20px;
+  }
+
+  .hero-logo {
+    width: 100%;
+    max-height: 32svh;
+  }
+
+  .hero-count h1 {
+    font-size: 32px;
+  }
+
+  .hero-count .countdown {
+    margin-top: 18px;
+  }
+
+  .hero-event-info {
+    gap: 12px;
+    padding: 15px 0;
+  }
+
+  .hero-event-info span {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+
+  .hero-cta {
+    width: 100%;
+    max-width: 310px;
+  }
+
+  .event-section h2,
+  .tickets-section h2,
+  .community-section h2 {
+    font-size: 34px;
+  }
+
+  .pix-key {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .pix-key .copy-btn {
+    width: 100%;
+    min-height: 44px;
+  }
+
+  .refund-inner {
+    width: 90%;
+  }
+}
