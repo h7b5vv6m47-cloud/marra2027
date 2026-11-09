@@ -861,6 +861,14 @@ input:focus-visible {
     padding: 15px 6%;
   }
 
+   .hero-logo {
+  width: 115%;
+  max-width: none;
+  height: auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
   .brand-mini img {
     width: 85px;
   }
@@ -1065,7 +1073,7 @@ input:focus-visible {
 
 .hero-logo {
   display: block;
-  width: min(88vw, 900px);
+  width: min(96vw, 1250px);
   max-width: 100%;
   height: auto;
   max-height: none;
