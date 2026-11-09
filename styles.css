@@ -1058,11 +1058,14 @@ input:focus-visible {
 
 .hero-logo {
   display: block;
-  width: min(100%, 1000px);
-  max-height: 55svh;
+  width: min(92%, 1100px);
+  max-width: 1100px;
+  max-height: 62svh;
   height: auto;
   object-fit: contain;
+  object-position: center center;
   margin: 0 auto;
+  flex-shrink: 0;
 }
 
 .hero-count {
@@ -1367,9 +1370,15 @@ input:focus-visible {
   }
 
   .hero-logo {
-  width: 115%;
-  max-height: 43svh;
-  max-width: none;
+  display: block;
+  width: 92%;
+  max-width: 450px;
+  max-height: 48svh;
+  height: auto;
+  object-fit: contain;
+  object-position: center center;
+  margin: 0 auto;
+  flex-shrink: 0;
 }
 
   .hero-count h1 {
