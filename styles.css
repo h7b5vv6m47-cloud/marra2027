@@ -1073,7 +1073,7 @@ input:focus-visible {
 
 .hero-logo {
   display: block;
-  width: min(96vw, 1250px);
+  width: min(96vw, 1100px);
   max-width: 100%;
   height: auto;
   max-height: none;
@@ -1379,7 +1379,15 @@ input:focus-visible {
     min-height: 100svh;
     padding: 90px 5% 85px;
   }
-
+   
+.hero-logo {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+}
+   
   .hero-content {
   width: 100%;
   max-width: none;
