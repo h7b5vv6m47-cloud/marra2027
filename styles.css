@@ -1058,9 +1058,9 @@ input:focus-visible {
 
 .hero-logo {
   display: block;
-  width: min(100%, 1250px);
-  max-width: 1250px;
-  max-height: 70svh;
+  width: min(110%, 1500px);
+  max-width: 1500px;
+  max-height: 82svh;
   height: auto;
   object-fit: contain;
   object-position: center center;
@@ -1371,9 +1371,9 @@ input:focus-visible {
 
   .hero-logo {
   display: block;
-  width: 100%;
-  max-width: 520px;
-  max-height: 58svh;
+  width: 115%;
+  max-width: 650px;
+  max-height: 68svh;
   height: auto;
   object-fit: contain;
   object-position: center center;
